@@ -1,2 +1,22 @@
---color
---require spec_helper
+my_name = "Gabby Pace"
+birthdate = "Mar10"
+birthplace = "Raliegh"
+
+puts my_name + ' was born in ' + 'and is from'
+
+puts "what is your name"
+my_name = gets
+
+puts "what is your birthdate"
+birthdate = gets
+
+puts "where were you born"
+birthplace = gets
+
+def askandanswer(my_name, birthdate, birthplace)
+puts "hi my_name is"#{my_name}
+puts "I was born on "#{Mar10}
+puts "I was born in"#{Raliegh}
+end
+
+askandanswer(my_name, birthdate, birthplace)
